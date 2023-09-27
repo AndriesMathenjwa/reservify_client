@@ -20,3 +20,17 @@
     }
       
   } 
+
+  @media screen and (max-width: 1080px){
+    .homeTitle{
+        width: 850px;
+    }
+      
+  } 
+
+  @media screen and (max-width: 990px){
+    .homeTitle{
+        width: 750px;
+    }
+      
+  } 

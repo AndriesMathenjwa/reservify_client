@@ -36,9 +36,16 @@
   
 }
 
-/* @media screen and (max-width: 1080px){
+ @media screen and (max-width: 1080px){
   .footer{
     max-width: 850px;
   }
  
-}  */
+} 
+
+@media screen and (max-width: 990px){
+  .footer{
+    max-width: 750px;
+  }
+ 
+}

@@ -54,9 +54,16 @@
   
 }
 
-/* @media screen and (max-width: 1080px){
+ @media screen and (max-width: 1080px){
   .fp{
     max-width: 850px;
   }
  
-}  */
+}  
+
+@media screen and (max-width: 990px){
+  .fp{
+    max-width: 750px;
+  }
+ 
+}  
