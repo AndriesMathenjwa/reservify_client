@@ -42,3 +42,21 @@
   }
 
 }
+@media (max-width: 990px){
+  .mailTitle{
+    font-size: 1.5rem;
+  }
+  .mailDesc{
+  font-size: 0.8rem;
+}
+
+
+.mailInputContainer>input {
+  width: 200px;
+  height: 25px;
+ }
+
+ .mailInputContainer>button {
+  height: 45px;
+  }
+}
