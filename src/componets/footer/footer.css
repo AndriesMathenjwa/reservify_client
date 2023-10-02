@@ -46,6 +46,36 @@
 @media screen and (max-width: 990px){
   .footer{
     max-width: 750px;
+    font-size: 0.8rem;
   }
  
 }
+
+@media screen and (max-width: 860px){
+  .footer{
+    max-width: 700px;
+  }
+
+  .fListItem{
+    font-size: 12px;           
+  }
+ 
+}
+
+@media screen and (max-width: 780px){
+  .footer{
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 735px){
+  .footer{
+    max-width: 550px;
+  }
+}
+
+/* @media screen and (max-width: 640px){
+  .footer{
+    max-width: 450px;
+  }
+} */

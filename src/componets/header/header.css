@@ -159,8 +159,12 @@
   .headerContainer{
   max-width: 750px;
 }
+.headerList{
+  font-size: 0.8rem;
+}
 .headerSearch{
   max-width: 750px;
+  height: 20px;
 }
 
 .headerTitle{
@@ -173,3 +177,57 @@
 }
 
 } 
+
+@media screen and (max-width: 860px){
+  .headerContainer{
+  max-width: 700px;
+}
+.headerSearch{
+  max-width: 700px;
+  height: 20px;
+}
+.headerSearchText {
+  font-size: 12px;
+}
+
+.headerSearchInput {
+  font-size: 12px;
+}
+
+.headerBtn {
+  font-size: 12px;
+  padding: 7px;
+}
+
+} 
+
+@media screen and (max-width: 780px){
+  .headerContainer{
+  max-width: 650px;
+}
+.headerSearch{
+  max-width: 650px;
+}
+
+} 
+
+@media screen and (max-width: 735px){
+.headerContainer {
+    max-width: 550px;
+}
+
+.headerSearch{
+  max-width: 550px;
+  height: 16px;
+}
+}
+
+@media screen and (max-width: 640px){
+  .headerContainer {
+      max-width: 450px;
+  }
+  
+  .headerSearch{
+    max-width: 450px;
+  }
+  }

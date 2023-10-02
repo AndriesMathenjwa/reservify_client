@@ -49,3 +49,34 @@
     }
    
   } 
+
+  @media screen and (max-width: 860px){
+    .featured{
+      max-width: 700px;
+    }
+   
+  } 
+
+  @media screen and (max-width: 780px){
+    .featured{
+      max-width: 650px;
+    }
+   
+  } 
+
+  @media screen and (max-width: 735px){
+    .featured{
+      max-width: 550px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+    }
+   
+  } 
+
+    @media screen and (max-width: 640px){
+    .featured{
+      max-width: 450px;
+      grid-template-columns: repeat(2,1fr);
+    }
+   
+  } 

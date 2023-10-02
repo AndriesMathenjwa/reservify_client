@@ -56,15 +56,56 @@
 }
 
  @media screen and (max-width: 1080px){
-  .fp{
+  .fp {
     max-width: 850px;
-  }
- 
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.fpImg {
+  height: 160px;
+}
 }  
 
 @media screen and (max-width: 990px){
   .fp{
     max-width: 750px;
+    font-size: 14px;
   }
  
 }  
+
+@media screen and (max-width: 860px){
+  .fp{
+    max-width: 700px;
+  }
+
+  .fpImg {
+    height: 160px;
+}
+ 
+}  
+
+@media screen and (max-width: 780px){
+  .fp{
+    max-width: 650px;
+    display: grid;
+      grid-template-columns: repeat(4,1fr);
+  }
+
+}  
+
+@media screen and (max-width: 735px){
+  .fp{
+    max-width: 550px;
+      grid-template-columns: repeat(3,1fr);
+  }
+
+} 
+
+@media screen and (max-width: 640px){
+  .fp{
+    max-width: 450px;
+  }
+
+} 

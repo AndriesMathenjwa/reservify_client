@@ -34,3 +34,30 @@
     }
       
   } 
+
+  @media screen and (max-width: 860px){
+    .homeTitle{
+        width: 700px;
+    }
+      
+  } 
+
+  @media screen and (max-width: 780px){
+    .homeTitle{
+        width: 650px;
+    }
+      
+  } 
+  @media screen and (max-width: 735px){
+    .homeTitle{
+        width: 550px;
+    }
+      
+  } 
+
+  @media screen and (max-width: 640px){
+    .homeTitle{
+        width: 450px;
+    }
+      
+  } 
