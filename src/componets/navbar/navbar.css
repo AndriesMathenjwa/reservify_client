@@ -93,8 +93,7 @@
   .navContainer{
   max-width: 380px;
 }
-/* .navIcon {
-  display:flex;
-} */
-
+.navContainer {
+  font-size: 0.63rem;
+}
 }

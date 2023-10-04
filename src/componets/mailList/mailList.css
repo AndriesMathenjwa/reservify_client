@@ -43,6 +43,9 @@
 
 }
 @media (max-width: 990px){
+  .mail {
+    width: 86%;
+}
   .mailTitle{
     font-size: 1.5rem;
   }
@@ -71,7 +74,26 @@
  .mailInputContainer>button {
   height: 40px;
   }
+
+}
+@media (max-width: 640px){
   .mail {
-    width: 86%;
+    width: 85%;
+}
+.mailDesc {
+    font-size: 0.63rem;
+}
+
+.mailTitle {
+  font-size: 1.2rem;
+}
+.mailInputContainer>input {
+  width: 150px;
+  height: 15px;
+  font-size: 0.63rem;
+}
+.mailInputContainer>button {
+  height: 32px;
+  font-size: 0.63rem;
 }
 }

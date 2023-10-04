@@ -61,3 +61,10 @@
     }
       
   } 
+
+  @media screen and (max-width: 540px){
+    .homeTitle{
+        width: 380px;
+    }
+      
+  } 

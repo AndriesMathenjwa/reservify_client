@@ -77,9 +77,16 @@
 @media screen and (max-width: 640px){
   .footer{
     max-width: 450px;
+    font-size: 0.63rem;
   }
   .fList {
    padding-right: 18px;
+}
+/* .fLists {
+  margin-bottom: 20px;
+} */
+.fListItem {
+  font-size: 10px;
 }
 }
 

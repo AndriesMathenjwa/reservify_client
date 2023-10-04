@@ -220,6 +220,9 @@
   max-width: 550px;
   height: 16px;
 }
+.rdrMonth {
+  width: 18.667em !important; 
+}
 }
 
 @media screen and (max-width: 640px){
@@ -233,7 +236,32 @@
   .taxis{
     display: none;
   }
+  .rdrCalendarWrapper {
+   
   }
+  .rdrMonth {
+    width: 15.667em !important; 
+    height: 15.667em !important;
+  }
+
+  .rdrMonthAndYearPickers select {
+    padding: 5px 5px 5px 5px !important;
+    font-size: 10px !important;
+  }
+  .rdrDateDisplayItem input {
+    height: 2em;
+    line-height: 2em;
+    font-size: 10px;
+}
+.rdrNextPrevButton {
+    width: 20px;
+    height: 20px;
+}
+.rdrWeekDay {
+    font-size: 10px;
+    line-height: 2em;
+}
+}
 
   @media screen and (max-width: 540px){
     .headerContainer {
@@ -243,4 +271,50 @@
     .headerSearch{
       max-width: 380px;
     }
-    }
+
+    .headerListItem {
+      gap: 5px;
+  }
+
+  .headerListItem.active {
+    padding: 5px;
+}
+.headerList{
+  font-size: 0.63rem;
+}
+
+.headerTitle{
+  font-size: 1.2rem;
+}
+
+.headerDesc{
+  font-size: 0.63rem;
+
+}
+
+.headerSearchText {
+  font-size: 10px;
+}
+
+.headerSearchInput {
+  font-size: 10px;
+}
+
+.headerBtn {
+  font-size: 10px;
+  padding: 5px;
+}
+
+
+} 
+
+/* @media screen and (max-width: 440px){
+  .headerContainer {
+      max-width: 300px;
+  }
+  
+  .headerSearch {
+    max-width: 300px;
+}
+} */
+

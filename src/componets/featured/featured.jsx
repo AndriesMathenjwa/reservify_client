@@ -20,8 +20,8 @@ const Featured = () => {
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>Mpumalanga</h1>
-              <h2>{data[0]} properties</h2>
+              <h1 className="ftitle1">Mpumalanga</h1>
+              <h2 className="ftitle2">{data[0]} properties</h2>
             </div>
           </div>
 
