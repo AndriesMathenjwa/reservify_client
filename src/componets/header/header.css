@@ -230,4 +230,17 @@
   .headerSearch{
     max-width: 450px;
   }
+  .taxis{
+    display: none;
   }
+  }
+
+  @media screen and (max-width: 540px){
+    .headerContainer {
+        max-width: 380px;
+    }
+    
+    .headerSearch{
+      max-width: 380px;
+    }
+    }

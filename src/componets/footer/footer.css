@@ -74,8 +74,17 @@
   }
 }
 
-/* @media screen and (max-width: 640px){
+@media screen and (max-width: 640px){
   .footer{
     max-width: 450px;
   }
-} */
+  .fList {
+   padding-right: 18px;
+}
+}
+
+@media screen and (max-width: 540px){
+  .footer{
+    max-width: 380px;
+  }
+}

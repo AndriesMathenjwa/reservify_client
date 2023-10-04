@@ -4,6 +4,13 @@
     display: flex;
     justify-content: center;
   }
+  .navIcon {
+    padding-left: 48px;
+    padding-right: 30px;
+    color: lightgray;
+    margin: auto;
+    display: none;
+  }
   
   .navContainer{
     width: 100%;
@@ -76,5 +83,18 @@
   .navContainer{
   max-width: 450px;
 }
+/* .navIcon {
+  display:flex;
+} */
+
+}
+
+@media screen and (max-width: 540px){
+  .navContainer{
+  max-width: 380px;
+}
+/* .navIcon {
+  display:flex;
+} */
 
 }

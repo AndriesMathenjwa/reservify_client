@@ -71,4 +71,7 @@
  .mailInputContainer>button {
   height: 40px;
   }
+  .mail {
+    width: 86%;
+}
 }

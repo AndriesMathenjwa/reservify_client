@@ -77,7 +77,7 @@ import { AuthContext } from "../../context/AuthContext";
               <FontAwesomeIcon icon={faBed} />
               <span>Attractions</span>
             </div>
-            <div className="headerListItem">
+            <div className="headerListItem taxis">
               <FontAwesomeIcon icon={faTaxi} />
               <span>Airport taxis</span>
             </div>

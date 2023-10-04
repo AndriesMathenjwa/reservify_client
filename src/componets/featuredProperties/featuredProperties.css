@@ -109,3 +109,10 @@
   }
 
 } 
+
+@media screen and (max-width: 540px){
+  .fp{
+    max-width: 380px;
+  }
+
+} 

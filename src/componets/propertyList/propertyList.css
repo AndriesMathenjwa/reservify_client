@@ -90,4 +90,10 @@
             /* grid-template-columns: repeat(2,1fr); */
           }
           } 
-
+   
+          @media screen and (max-width: 540px) {
+            .pList {
+              max-width: 380px;
+              /* grid-template-columns: repeat(2,1fr); */
+            }
+            } 
