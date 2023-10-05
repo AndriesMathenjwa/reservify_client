@@ -87,8 +87,89 @@
 
 @media screen and (max-width: 1194px){
   .listWrapper {
-      width: 950px;
+      max-width: 950px;
   }
 
     
 } 
+
+@media screen and (max-width: 1080px){
+  .listWrapper {
+      max-width: 850px;
+  }
+
+    
+} 
+
+@media screen and (max-width: 990px){
+  .listWrapper {
+      max-width: 750px;
+  }
+
+  .siCheckButton{
+    font-size: 0.6rem;
+  }
+
+  .siPrice {
+    font-size: 16px !important;
+}
+
+.lsItem>input {
+  height: 25px;
+  }
+
+  .lsItem>span {
+    height: 25px;
+    padding: 5px;
+  }
+
+    
+}
+
+@media screen and (max-width: 860px){
+  .listWrapper {
+      max-width: 700px;
+  }
+
+
+    
+} 
+
+@media screen and (max-width: 780px){
+  .listWrapper {
+      max-width: 650px;
+      .siTitle {
+        font-size: 15px;
+      }
+  }
+    
+} 
+
+@media screen and (max-width: 735px){
+  .listWrapper {
+      max-width: 550px;
+  }
+
+  .siImg {
+    width: 120px;
+    height: 185px;
+}
+
+.lsItem>input {
+  font-size: 0.8rem;
+}
+
+.lsItem>span {
+  font-size: 0.8rem;
+}
+
+.listSearch>button {
+  font-size: 0.8rem;
+}
+} 
+
+@media screen and (max-width: 640px){
+  .listWrapper {
+      max-width: 450px;
+  }
+}

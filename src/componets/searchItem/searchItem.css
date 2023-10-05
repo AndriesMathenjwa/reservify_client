@@ -107,3 +107,51 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 735px){
+
+  .siImg {
+    width: 120px;
+    height: 185px;
+}
+.siDistance {
+  font-size: 10px;
+}
+.siTaxiOp {
+  font-size: 10px;
+}
+
+.siSubtitle {
+  font-size: 10px;
+}
+
+.siFeatures {
+  font-size: 10px;
+}
+
+.siCancelOp {
+  font-size: 10px;
+}
+
+.siCancelOpSubtitle {
+  font-size: 10px;
+}
+
+.siPrice {
+  font-size: 12px !important;
+}
+
+.siTaxOp {
+  font-size: 10px;
+}
+
+.siCheckButton {
+  font-size: 10px;
+}
+
+.siCheckButton {
+  padding: 5px 5px;
+
+}
+    
+} 
