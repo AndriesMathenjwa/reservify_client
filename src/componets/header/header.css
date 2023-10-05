@@ -231,6 +231,10 @@ h2 {
 } 
 
 @media screen and (max-width: 735px){
+
+  .headerList {
+    gap: 10px;
+}
 .headerContainer {
     max-width: 550px;
 }

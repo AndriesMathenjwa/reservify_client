@@ -121,8 +121,8 @@
   .lsItem>span {
     height: 25px;
     padding: 5px;
+    font-size: 0.8rem;
   }
-
     
 }
 
@@ -159,10 +159,6 @@
   font-size: 0.8rem;
 }
 
-.lsItem>span {
-  font-size: 0.8rem;
-}
-
 .listSearch>button {
   font-size: 0.8rem;
 }
@@ -171,5 +167,34 @@
 @media screen and (max-width: 640px){
   .listWrapper {
       max-width: 450px;
+      gap: 10px;
   }
+
+  .searchItem {
+    display: grid !important;
+    gap: 10px;
+}
+
+.siDesc {
+    align-items: center;
+}
+
+.siCancelOpSubtitle {
+    font-size: 9px;
+}
+
+.siDetailTexts {
+   align-items: center;
+}
+}
+
+@media screen and (max-width: 540px){
+.listWrapper {
+    max-width: 380px;
+}
+
+.listWrapper {
+  display: grid;
+}
+
 }

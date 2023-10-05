@@ -129,7 +129,7 @@ const Hotel = () => {
                 Located in the real heart of Krakow, this property has an
                 excellent location score of 9.8!
               </span>
-              <h2>
+              <h2 className="nights">
                 <b>R{days * data.cheapestPrice * options.room}</b> ({days}{" "}
                   nights)
               </h2>

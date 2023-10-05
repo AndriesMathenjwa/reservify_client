@@ -156,8 +156,88 @@
 
 @media screen and (max-width: 1194px){
   .hotelWrapper {
-      width: 900px;
+      max-width: 900px;
+  }
+   
+} 
+
+@media screen and (max-width: 1080px){
+  .hotelWrapper {
+      max-width: 850px;
+  }
+   
+} 
+
+@media screen and (max-width: 990px){
+  .hotelWrapper {
+      max-width: 750px;
+      font-size: 0.8rem;
+  }
+   
+} 
+
+@media screen and (max-width: 860px){
+  .hotelWrapper {
+      max-width: 700px;
+  }
+   
+} 
+
+@media screen and (max-width: 735px){
+  .hotelWrapper {
+      max-width: 550px;
   }
 
-    
+  .bookNow {
+    font-size: 10px;
+}
+
+.hotelTitle {
+  font-size: 16px;
+}
+
+.hotelDetailsPrice > button {
+  font-size: 10px;
+}
+.hotelDetailsPrice > h1 {
+  font-size: 14px;;
+}
+
+.hotelDetailsPrice > span {
+  font-size: 12px;
+}
+
+.hotelTitle {
+  font-size: 14px;
+}
+
+.nights{
+    font-size: 14px !important;
+}
+   
+} 
+
+@media screen and (max-width: 640px){
+  .hotelWrapper {
+      max-width: 450px;
+  }
+   
+} 
+
+@media screen and (max-width: 540px){
+  .hotelWrapper {
+      max-width: 380px;
+  }
+
+  .hotelDetailsPrice > button {
+    padding: 3px 5px;
+}
+   
+} 
+
+@media screen and (max-width: 450px){
+  .hotelWrapper {
+      max-width: 300px;
+  }
+   
 } 
