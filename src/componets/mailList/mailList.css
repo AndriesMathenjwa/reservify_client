@@ -97,3 +97,17 @@
   font-size: 0.63rem;
 }
 }
+
+@media (max-width: 450px){ 
+  .mail{ 
+  width: 78%;
+  } 
+  /* .mailInputContainer>input {
+   width: 250px;
+   height: 25px;
+  }
+  .h2{
+   font-size: 1rem;
+  } */
+
+}

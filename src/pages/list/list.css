@@ -189,6 +189,10 @@
 }
 
 @media screen and (max-width: 540px){
+  
+  .listSearch {
+    top: auto;
+  }
 .listWrapper {
     max-width: 380px;
 }
@@ -198,3 +202,10 @@
 }
 
 }
+
+@media screen and (max-width: 450px){
+  .listWrapper {
+      max-width: 300px;
+  }
+  
+  }

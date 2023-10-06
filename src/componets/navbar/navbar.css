@@ -97,3 +97,9 @@
   font-size: 0.63rem;
 }
 }
+
+@media screen and (max-width: 450px){
+  .navContainer{
+  max-width: 300px;
+}
+}

@@ -46,11 +46,23 @@
   padding: 10px;
   cursor: pointer;
 }
-
-.headerBtn2{
-  position: -50px;
+.buttonCon{
+  position: absolute;
+  bottom: -60px;
 }
 
+.button2{
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  border-radius: 5px;
+  width: 150px;
+  display: none;
+}
 
 .headerSearch {
   height: 30px;
@@ -284,6 +296,10 @@ h2 {
     font-size: 10px;
     line-height: 2em;
 }
+
+.button2{
+  display: block;
+}
 }
 
   @media screen and (max-width: 540px){
@@ -328,6 +344,9 @@ h2 {
   padding: 5px;
 }
 
+.headerIcon{
+  display: none;
+}
 
 } 
 
@@ -338,6 +357,14 @@ h2 {
   
   .headerSearch {
     max-width: 300px;
+}
+
+.headerSearchText {
+  padding-right: 10px;
+}
+
+.headerSearchInput {
+  padding-left: 10px;
 }
 }
 

@@ -205,7 +205,11 @@ import { AuthContext } from "../../context/AuthContext";
             </>
           )}
         </div>
+        <div className="buttonCon">
+                  <button className="button2" onClick={handleSearch}>Search</button>
+                </div>
       </div>
+      
     );
   };
   

@@ -56,6 +56,13 @@
   } 
 
   @media screen and (max-width: 640px){
+
+    .headerBtn {
+        display: none;
+  }
+    .homeContainer{
+      padding-top: 20px;
+    }
     .homeTitle{
         width: 450px;
     }
@@ -65,6 +72,13 @@
   @media screen and (max-width: 540px){
     .homeTitle{
         width: 380px;
+    }
+      
+  } 
+
+  @media screen and (max-width: 450px){
+    .homeTitle{
+        width: 300px;
     }
       
   } 

@@ -95,3 +95,9 @@
     max-width: 380px;
   }
 }
+
+@media screen and (max-width: 450px){
+  .footer{
+    max-width: 300px;
+  }
+}

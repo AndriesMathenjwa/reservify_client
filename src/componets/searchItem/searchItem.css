@@ -165,3 +165,10 @@
     padding-left: 15px;
 }
 }
+
+@media screen and (max-width: 540px){
+  .searchItem {
+    justify-content: initial;
+}
+  
+}
