@@ -200,14 +200,18 @@ import { AuthContext } from "../../context/AuthContext";
                   <button className="headerBtn" onClick={handleSearch}>
                     Search
                   </button>
+
+                  <div className="buttonCon">
+                  <button className="button2" onClick={handleSearch}>Search</button>
+                </div>
                 </div>
               </div>
             </>
           )}
         </div>
-        <div className="buttonCon">
+        {/* <div className="buttonCon">
                   <button className="button2" onClick={handleSearch}>Search</button>
-                </div>
+                </div> */}
       </div>
       
     );
